@@ -8,7 +8,7 @@ namespace ConsoleApplication44
         public void M1(DateTime? date)
         {
             var builder = new StringBuilder(@"
-SELECT PostId, Text,  CreationDate
+SELECT PostId, Text,  CreationDate4
 FROM Post
 WHERE 1 = 1");
         }
